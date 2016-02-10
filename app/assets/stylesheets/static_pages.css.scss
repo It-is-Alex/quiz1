@@ -1,3 +1,18 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.box {
+	background-color: black;
+	width: 50%;
+	border-radius: 5px;
+}
+
+.box h1 {
+	color: blue;
+}
+
+.box p {
+	color: red;
+}
