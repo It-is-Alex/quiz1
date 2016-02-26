@@ -1,0 +1,17 @@
+<h1>Your cd collection is:</h1>
+
+<% if !@cds.empty? %>
+	<% @cds.each do |cd| %>
+		<div class="cd">
+			<h2>Title: <%= cd.title %></h2>
+			<h3>Artist: <%= cd.artist %></h3>
+			</h4>Genre: <%= cd.genre %></h4>
+		</div>
+	<% end %>
+
+	<br />
+<% end %>
+
+<h3><%= link_to "Homepage", root_path %></h3>
+
+
